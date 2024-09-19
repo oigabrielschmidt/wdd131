@@ -1,0 +1,51 @@
+
+body{
+    background: rgb(53, 51, 51);
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: rgb;
+    padding: 2em 0 2em 0;
+    }
+
+    .nav {
+        display: flex; /* Use flexbox for side-by-side layout */
+        justify-content: space-around; /* Space items evenly */
+        background: #f4f4f4; /* Background color */
+        padding: 10px 0; /* Padding for the nav */
+    }
+    .nav div {
+        flex: 1; /* Each item takes equal space */
+        text-align: center; /* Center the text */
+    }
+    .nav a {
+        text-decoration: none; /* Remove underline from links */
+        color: #333; /* Link color */
+        padding: 10px; /* Padding around links */
+        display: block; /* Make the entire area clickable */
+    }
+
+    main {
+        display: flex; /* Use flexbox for side-by-side layout */
+    }
+    .content {
+        flex: 2; /* Main content takes up 2 parts */
+        background: #000000; /* Background color for main content */
+    }
+    aside {
+        flex: 1; /* Aside takes up 1 part */
+        background: #000000; /* Background color for aside */
+    }
+
+    footer{
+        display: flexbox;
+        background: white;
+        color: black;
+    }
+
+}
